@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/nav.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome My Form</h1>
+
+    </header>
+    <form action="">
+        <p> Name : <input type="text" name="name" placeholder="Enter your name" id="name"></p>
+        <p> Email : <input type="email" name="email" placeholder="Enter your email" id="email"></p>
+        <fieldset>
+            <legend>Select your section</legend>
+           <p>
+            <label for="1st"> 
+                <input type="radio" name="Select1" id="1st">Fist Section
+            </label>
+           </p>
+           <p>
+            <label for="2nd"> 
+                <input type="radio" name="Select1" id="2nd">Secend Section
+            </label>
+           </p>
+           <p>
+            <label for="3rd">
+                <input type="radio" name="Select1" id="3rd">third Section 
+            </label>
+           </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select your Subjects</legend>
+            <p>
+                <label for="english">
+                    <input type="checkbox" name="Subjects" id="english">English
+                </label>
+            </p>
+            <p>
+                <label for="bangla">
+                    <input type="checkbox" name="Subjects" id="bangla">Banlga
+                </label>
+            </p>
+            <p>
+                <label for="accounting">
+                    <input type="checkbox" name="Subjects" id="accounting">Accounting
+                </label>
+            </p>
+            
+        </fieldset>
+        <p>
+            Special Instruction
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+
+</html>
